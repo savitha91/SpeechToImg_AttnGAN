@@ -1,1 +1,1 @@
-"show me a green colour bird with red colour"
+"show me a blue colour bird with red colour wings"

@@ -1,12 +1,12 @@
 from flask import Flask, request, jsonify, render_template, make_response
-import numpy as np
-import json
-from eval import *
+from AttnGan.eval import *
 import speech_recognition as sr
 from flask_jsglue import JSGlue
 app =Flask(__name__)
 jsglue = JSGlue(app)
-from datetime import datetime
+
+
+#pip freeze
 
 @app.after_request
 def add_header(r):
@@ -72,7 +72,5 @@ def generate_img():
     getImageFromText(text)
     return make_response(jsonify("SUCCESS"))
 
-
-
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True,host='0.0.0.0')
