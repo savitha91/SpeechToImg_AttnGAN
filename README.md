@@ -17,16 +17,24 @@ Application has the following folders and files :
 5. miscc - This folder container utility files required for AttnGAN model
 6. config.py - This file contains pre-trained model, output location information
 
-## Install and Run in Docker
-Clone the repo and navigate to the repo:
+## Clone the app 
+1. git clone https://github.com/savitha91/SpeechToImg_AttnGAN.git
+2. cd SpeechToImg_AttnGAN/
 
-git clone https://github.com/savitha91/SpeechToImg_AttnGAN.git
-cd SpeechToImg_AttnGAN/
-docker build -f Dockerfile -t speechtoimg .
-docker run -p 5002:5000 -ti speechtoimg
+## Run app locally
+1. python AppFlask.y
+2. Navigate to http:localhost:5000 for the app (Flask runs on port 5000 by default)
 
-Navigate to http://localhost:5002 for the app. (Flask runs on port 5000 by default)
-The Flask app is run in CPU.
+## Deploy app as Docker image and run 
+1. docker build -f Dockerfile -t speechtoimg .
+2. docker run -p 5002:5000 -ti speechtoimg
+3. Navigate to http://localhost:5002 for the app (We have mapped default port 5000 to port 5002)
+
+## Deploy app in Heroku
+1. heroku login
+2. heroku create
+3. git push heroku master
+4. Navigate to the deployed url
 
 ## Run Unit Test
 TODO
