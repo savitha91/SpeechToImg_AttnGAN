@@ -5,7 +5,6 @@ RUN yum install epel-release -y && yum clean all && yum update -y
 # /usr/local/Cellar/ :  folder where the above modules are installed
 
 WORKDIR /app
-EXPOSE 8501
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt --ignore-installed
 COPY . .
