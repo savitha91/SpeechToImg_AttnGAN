@@ -4,7 +4,7 @@ Speech to Image is an open-source project aimed to "Visualize anything we say", 
 
 
 ## Demo
-
+![AppDemo](/Demo/captured.gif)
 
 
 ## App Structure
