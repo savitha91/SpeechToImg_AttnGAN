@@ -32,14 +32,14 @@ Application has the following folders and files :
 4. docker run -p 5002:5000 -ti speechtoimg
 5. Navigate to http://localhost:5002 for the app (We have mapped default port 5000 to port 5002)
 
-## Run Unit Test
-TODO
-
 ## Application UI using streamlit API
 Please check the branch "streamlitApp"
 
 ## About This Project
 This project is a part of Data Science Incubator (Summer 2020) organized by Made With ML. We constantly look for better models. We welcome your contributions and please contact us if you do!
+
+### Documentation
+Topics researched, issues faced, identified solutions, topics currently working on, can be found in the attached document - Speech2Img_MML.docx
 
 ## Acknowledgements
 1. SpeechRecognition API to recognise what user said. 
@@ -48,5 +48,7 @@ https://pypi.org/project/SpeechRecognition/
 https://medium.com/jeremy-gottfrieds-tech-blog/javascript-tutorial-record-audio-and-encode-it-to-mp3-2eedcd466e78
 3. Pre-trained AttnGAN model is used to generate image 
 https://github.com/taoxugit/AttnGAN
+
+
 
 
