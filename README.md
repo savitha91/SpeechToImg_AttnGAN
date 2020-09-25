@@ -39,7 +39,7 @@ Please check the branch "streamlitApp"
 This project is a part of Data Science Incubator (Summer 2020) organized by Made With ML. We constantly look for better models. We welcome your contributions and please contact us if you do!
 
 ### Documentation
-Topics researched, issues faced, identified solutions, topics currently working on, can be found in the attached document - Speech2Img_MML.docx
+Topics researched, issues faced, identified solutions, topics currently working on, can be found in the attached document - Speech2Image_MML.docx
 
 ## Acknowledgements
 1. SpeechRecognition API to recognise what user said. 
