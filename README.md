@@ -2,7 +2,6 @@
 
 Speech to Image is an open-source project aimed to "Visualize anything we say", powered by PyTorch, SpeechRecognition,Attention GAN and Flask. We record user voice from the browser using Javascript MediaRecorder API, recognise the audio using SpeechRecognition API and check with user, if what he/she said is recognized correctly. If the audio is recognized right, the identified text is then passed to Attention GAN model (pretrained on Bird's dataset), which generates an image that matches the text. In current stage,user can record something related to birds and visualise the same
 
-
 ## Demo
 ![AppDemo](/Demo/captured.gif)
 
@@ -48,6 +47,12 @@ Please check the branch "streamlitApp"
 
 ## About This Project
 This project is a part of Data Science Incubator (Summer 2020) organized by Made With ML. We constantly look for better models. We welcome your contributions and please contact us if you do!
+
+The core idea behind the project is to use the app as a visualisation tool while planning house constructions, where the requirements like "Design a room with x-y-z dimensions , yellow walls, TV placed at middle of the wall.." can be told by the customer and the app shows an image with the requirements given by the user. 
+
+#### On-going task 
+1. The current state of the project is it works fine for Birds images, working on ObjectGAN model trained on COCO dataset to generate random image with multiple objects
+2. Building a Seq2Seq model for Speech recognition on MELD-training dataset
 
 ### Documentation
 Topics researched, issues faced, identified solutions, topics currently working on, can be found in the attached document - Speech2Image_MML.docx
