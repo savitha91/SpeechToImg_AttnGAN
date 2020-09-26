@@ -33,7 +33,7 @@ Application has the following folders and files :
 OSError: [Errno 48] Address already in use.
 
 Solution -
-1. Fid the process :     $sudo lsof -i :5000
+1. Find the process :    $sudo lsof -i :5000
 2. Kill the process id : $sudo kill -9 <pid>
 
 ## Deploy app as Docker image and run 
