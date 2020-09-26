@@ -22,8 +22,19 @@ Application has the following folders and files :
 ## Run app locally
 1. git clone https://github.com/savitha91/SpeechToImg_AttnGAN.git
 2. cd SpeechToImg_AttnGaN
-2. python AppFlask.y
-3. Navigate to http:localhost:5000 for the app (Flask runs on port 5000 by default)
+3. Create new conda environment for our project and install the libraries from requirements.txt
+   1. conda create --name speech2img python
+   2. conda activate speech2img
+   3. pip install -r requirements.txt 
+4. python AppFlask.y
+5. Navigate to http:localhost:5000 for the app (Flask runs on port 5000 by default)
+
+#### Common error
+OSError: [Errno 48] Address already in use.
+
+Solution -
+1. Fid the process :     $sudo lsof -i :5000
+2. Kill the process id : $sudo kill -9 <pid>
 
 ## Deploy app as Docker image and run 
 1. git clone https://github.com/savitha91/SpeechToImg_AttnGAN.git
@@ -48,6 +59,8 @@ https://pypi.org/project/SpeechRecognition/
 https://medium.com/jeremy-gottfrieds-tech-blog/javascript-tutorial-record-audio-and-encode-it-to-mp3-2eedcd466e78
 3. Pre-trained AttnGAN model is used to generate image 
 https://github.com/taoxugit/AttnGAN
+4. Resolve address alread in use error
+https://medium.com/@madhav_46395/find-and-kill-process-locking-port-5000-or-5001-on-mac-bc0257ce614b
 
 
 
