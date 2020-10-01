@@ -57,6 +57,11 @@ The core idea behind the project is to use the app as a visualisation tool while
 ### Documentation
 Topics researched, issues faced, identified solutions, topics currently working on, can be found in the attached document - Speech2Image_MML.docx
 
+### Projects developed as a part of the task
+1. https://github.com/savitha91/Streamlit_HerokuDeploy
+2. https://github.com/savitha91/Flask_HerokuDeploy
+3. https://github.com/savitha91/AudioSignal_FeatureExtraction
+
 ## Acknowledgements
 1. SpeechRecognition API to recognise what user said. 
 https://pypi.org/project/SpeechRecognition/
